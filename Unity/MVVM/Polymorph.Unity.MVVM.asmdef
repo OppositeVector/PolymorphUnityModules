@@ -1,0 +1,17 @@
+{
+    "name": "Polymorph.Unity.MVVM",
+    "references": [
+        "Polymorph.DataTools",
+        "Polymorph.Unity.Core",
+        "Polymorph.Serialization"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

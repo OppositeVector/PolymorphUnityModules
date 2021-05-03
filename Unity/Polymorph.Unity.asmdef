@@ -1,0 +1,16 @@
+{
+    "name": "Polymorph.Unity",
+    "references": [
+        "GUID:5ae5b33bdb0aaec4db44f6560856f62e",
+        "GUID:7dc8a1d73f40c7b46ba311598ca61afc"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
