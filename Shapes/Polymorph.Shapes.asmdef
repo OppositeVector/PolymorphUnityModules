@@ -1,8 +1,10 @@
 {
     "name": "Polymorph.Shapes",
+    "rootNamespace": "",
     "references": [
         "Polymorph.Primitives",
-        "Polymorph"
+        "Polymorph",
+        "Polymorph.Utils"
     ],
     "includePlatforms": [],
     "excludePlatforms": [],
