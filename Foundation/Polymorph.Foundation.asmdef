@@ -1,10 +1,7 @@
 {
-    "name": "Polymorph.Unity",
+    "name": "Polymorph.Foundation",
     "rootNamespace": "",
-    "references": [
-        "GUID:69ea16cb493b40d4d9e7a143c70a6944",
-        "GUID:c131cc857827532499fc7002a9bfc33d"
-    ],
+    "references": [],
     "includePlatforms": [],
     "excludePlatforms": [],
     "allowUnsafeCode": false,
