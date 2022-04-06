@@ -1,10 +1,10 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
-using System.ComponentModel.Design;
 using System.Reflection;
 using System.Text;
 using System.Text.RegularExpressions;
+using System.Globalization;
 using MiniJSON;
 
 namespace Polymorph.Serialization {
@@ -230,7 +230,11 @@ namespace Polymorph.Serialization {
         }
 
         public static string Serialize(object obj) {
-            return RecursiveSerialize(obj, new List<object>());
+            var origCulture = CultureInfo.CurrentCulture;
+            CultureInfo.CurrentCulture = CultureInfo.GetCultureInfo("en");
+            var retVal = RecursiveSerialize(obj, new List<object>());
+            CultureInfo.CurrentCulture = origCulture;
+            return retVal;
         }
 
         static string RecursiveSerialize(object obj, List<object> stack) {
